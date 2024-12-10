@@ -50,7 +50,7 @@ function App() {
         <a href="/form" className="atal-link">
           click here
         </a>{' '}
-        to see the website of Atal too.
+        to see the website of Atal too
       </h1>
       </>
   );
