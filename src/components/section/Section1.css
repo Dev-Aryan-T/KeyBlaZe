@@ -1,0 +1,85 @@
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px auto;
+  padding: 25px;
+  width: 80%;
+  color: white;
+  mix-blend-mode: color-dodge;
+  font-size: 30px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.word-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+  position: relative;
+  top: -150px;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+.word-display.blurred {
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.word {
+  display: flex;
+  gap: 3px;
+}
+
+.letter {
+  transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 0.6); /* Dimmed white */
+}
+
+.letter.correct {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+.letter.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+.stats {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0; /* Initially hidden */
+  transition: all 0.5s ease;
+}
+
+.stats.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+  opacity: 1; /* Fade-in effect */
+}
+
+.stats p {
+  margin: 10px 0;
+}
+
+.stats .final {
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: bold;
+  color: lightgreen;
+  text-shadow: 0 0 20px rgba(0, 255, 0, 0.9), 0 0 40px rgba(0, 255, 0, 0.7);
+}

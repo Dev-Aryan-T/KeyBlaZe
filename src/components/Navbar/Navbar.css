@@ -1,0 +1,111 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    mix-blend-mode: color-dodge;
+  }
+  button {
+    background: none;
+    border: none;
+    color: white;
+
+    cursor: pointer;
+
+  }
+  button:hover{
+    color: aqua;
+  }
+  
+  /* Logo Section with RGB Glow */
+  .logo {
+    font-family: "Pacifico", cursive; /* Fancy cursive font */
+    font-size: 25px;
+    position: relative;
+    width: 70%;
+    
+  }
+  
+  .logo .glowing-text {
+    color: #fff;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #00ff00, 0 0 30px #0000ff;
+    animation: glow-animation 2s infinite;
+  }
+  
+  /* RGB Glow Animation */
+  @keyframes glow-animation {
+    0% {
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    }
+    33% {
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    }
+    66% {
+      text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 30px #0000ff;
+    }
+    100% {
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    }
+  }
+  .right_links {
+    display: flex;
+    gap: 29px;
+    position: relative;
+    margin-right: 750px;
+  }
+  .left_links{
+    display: flex;
+    gap: 35px;
+  }
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .nav-links li a:hover {
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+  }
+  
+  /* Icon Styling */
+  .nav-icon {
+    width: 1.25em;
+    height: 1.25em;
+    display: grid
+;
+    place-content: center center;
+  }
+  img {
+    width: 20%; /* Resize the logo */
+    height: 45px; /* Keep it square */
+    object-fit: cover; 
+    /* Crop the image */
+  
+   margin-left: 13%;
+   position: relative;
+   margin-top: -7px;
+   bottom: -60px;
+   z-index: -100;
+mix-blend-mode: luminosity;
+  
+    
+  }
