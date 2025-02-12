@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/KeyBlaZe/static/css/main.5b027c97.css",
+    "main.js": "/KeyBlaZe/static/js/main.ecaaa6a5.js",
+    "static/media/logo.png": "/KeyBlaZe/static/media/logo.4e537a9ab7274998b94b.png",
+    "index.html": "/KeyBlaZe/index.html",
+    "main.5b027c97.css.map": "/KeyBlaZe/static/css/main.5b027c97.css.map",
+    "main.ecaaa6a5.js.map": "/KeyBlaZe/static/js/main.ecaaa6a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b027c97.css",
+    "static/js/main.ecaaa6a5.js"
+  ]
+}
