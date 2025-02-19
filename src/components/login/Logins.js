@@ -3,7 +3,7 @@ import './login.css';
 
 export default function Login({ onClose }) {
   return (
-    <form action="" className="login">
+    <form action="connection.php" method = "POST" className="login">
     <div className="modal-backdrop">
       <div className="modal-content">
         <div className="container">

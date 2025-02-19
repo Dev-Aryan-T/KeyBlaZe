@@ -7,7 +7,7 @@ body {
   background-position: center; /* Centers the background */
   background-repeat: no-repeat; /* Prevents repetition */
   background-attachment: fixed; /* Makes the background static while scrolling */
-  color: white; 
+ 
   
  /* Text color to contrast with the dark background */
 }

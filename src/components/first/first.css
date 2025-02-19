@@ -29,12 +29,12 @@
 }
 
 button.text, .button.text, .textButton {
-    color: var(--sub-color);
+    color: aqua;
     cursor: pointer;
     transition: background .125s, color .125s, opacity .125s;
     padding: .5em;
     border-radius: var(--roundness);
-    background: none;
+    background: var(--bg-color);
     text-align: center;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -104,6 +104,6 @@ a {
     color: inherit; /* Removes the underline */
   }
   a:hover{
-    color: aqua;
+    color: rgb(255, 1, 196);
   }
   

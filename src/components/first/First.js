@@ -49,8 +49,8 @@ export default function First() {
         <button className="textButton active" timeconfig="30"><a href="#30"><span>30</span></a></button>
         <button className="textButton" timeconfig="60"><a href="#60"><span>60</span></a></button>
         <button className="textButton" timeconfig="120"><a href="#120"><span>120</span></a></button>
-        <button className="textButton" timeconfig="custom">
-          <i className="fas fa-fw fa-tools"></i>
+        <button className="textButton" timeconfig="custom"><a href="#">
+          <i className="fas fa-fw fa-tools"></i></a>
         </button>
       </div>
 </div>
